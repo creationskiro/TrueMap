@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TrueMap
 
-## Getting Started
+**"Where Google Maps Ends, TrueMap Begins"**
 
-First, run the development server:
+TrueMap is an open-source, AI-powered 3D mapping engine designed to democratize spatial data. Our goal is to map the "99% of unmapped indoor spaces" by providing developers and the community with the tools to generate complex 3D architectures using nothing but a smartphone.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
+- **Procedural 3D City Rendering**: High-performance Three.js engine for rendering complex cities, malls, airports, and road networks.
+- **AI-Powered Indoor Scanning (Beta)**: Tools to translate smartphone video data into interactive 3D floorplans.
+- **Community Driven**: Anyone can map a space and contribute to the global TrueMap database.
+- **Modern Stack**: Built natively on Next.js 15, React Three Fiber, Tailwind V4, and Prisma.
+- **Custom High-Security Auth**: Fully independent JWT-based authentication system built from scratch without reliance on third-party SaaS providers like Supabase or Firebase.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
+- **Frontend**: Next.js 15 (App Router), React, Tailwind CSS v4, Framer Motion
+- **3D Engine**: Three.js, React Three Fiber, React Three Drei
+- **Backend**: Next.js Server Actions, API Routes
+- **Database Architecture**: Prisma ORM (SQLite for Dev, easily migrable to PostgreSQL for Prod)
+- **Authentication**: Custom JWT (jose), bcryptjs
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Getting Started
 
-## Learn More
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or pnpm
 
-To learn more about Next.js, take a look at the following resources:
+### Local Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TrueMap/truemap.git
+   cd truemap
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Configure Environment Variables:
+   Copy the example environment file and configure your local secrets.
+   ```bash
+   cp .env.example .env
+   ```
 
-## Deploy on Vercel
+4. Initialize the Database:
+   Generate the Prisma client and push the schema to your local SQLite database.
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Run the Development Server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the 3D City Engine in action!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+We believe the only way to map the entire indoor world is together. We welcome contributions from developers, 3D artists, and spatial enthusiasts. 
+
+Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, development process, and how to submit pull requests.
+
+## 🏢 Enterprise Dashboard (TrueMap Cloud)
+While the core TrueMap engine and mapping tools are fully open-source, we also provide a premium managed solution for massive venues (Airports, Megamalls, Stadiums) requiring high-volume API access, private deployment, and advanced analytics. For enterprise inquiries, please contact ZTXO ARTLFY PRIVATE LIMITED.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
