@@ -4,7 +4,7 @@ First off, thank you for considering contributing to TrueMap! It's people like y
 
 ## Where to Start?
 
-If you are looking for ways to contribute, please check our [GitHub Issues](https://github.com/TrueMap/truemap/issues) board. We use labels to organize tasks:
+If you are looking for ways to contribute, please check our [GitHub Issues](https://github.com/creationskiro/TrueMap/issues) board. We use labels to organize tasks:
 - `good first issue`: Ideal for beginners looking to learn the codebase.
 - `help wanted`: General issues where the core team needs assistance.
 - `3D / Three.js`: Tasks specifically related to the rendering engine.

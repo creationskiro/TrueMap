@@ -32,7 +32,7 @@ TrueMap is an open-source, AI-powered 3D mapping engine designed to democratize 
 ### Local Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TrueMap/truemap.git
+   git clone https://github.com/creationskiro/TrueMap.git
    cd truemap
    ```
 
