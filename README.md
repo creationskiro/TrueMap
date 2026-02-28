@@ -1,5 +1,7 @@
 # TrueMap
 
+🌐 **Live Website**: [truemapapp.com](https://truemapapp.com)
+
 **"Where Google Maps Ends, TrueMap Begins"**
 
 TrueMap is an open-source, AI-powered 3D mapping engine designed to democratize spatial data. Our goal is to map the "99% of unmapped indoor spaces" by providing developers and the community with the tools to generate complex 3D architectures using nothing but a smartphone.
