@@ -6,12 +6,15 @@ TrueMap is an open-source, AI-powered 3D mapping engine designed to democratize 
 
 ---
 
-## 🚀 Features
-- **Procedural 3D City Rendering**: High-performance Three.js engine for rendering complex cities, malls, airports, and road networks.
-- **AI-Powered Indoor Scanning (Beta)**: Tools to translate smartphone video data into interactive 3D floorplans.
-- **Community Driven**: Anyone can map a space and contribute to the global TrueMap database.
-- **Modern Stack**: Built natively on Next.js 15, React Three Fiber, Tailwind V4, and Prisma.
-- **Custom High-Security Auth**: Fully independent JWT-based authentication system built from scratch without reliance on third-party SaaS providers like Supabase or Firebase.
+## 🚀 Features & Problem Solved
+| Feature | Description | Problem Solved |
+| :--- | :--- | :--- |
+| **3D Indoor Mapping by Users** | Users can scan and map any indoor space in 3D using their smartphone camera, creating publicly available maps similar to Google Maps but for indoor spaces. | Solves the lack of publicly available indoor navigation systems causing time wastage and confusion in new places like railway stations, airports, and shopping malls. |
+| **Community Question-Answer** | Reddit-style community chat feature where users can ask navigation questions and receive step-by-step guides with integrated indoor maps. | Traditional review systems don't provide practical navigation solutions for real-world problems. |
+| **Review System** | Comprehensive rating and review system for places and services to build trust and credibility. | Establishing trust factor and quality assurance for community-generated content. |
+| **Community Add-ons** | Third-party app development ecosystem including service booking platforms and digital notice boards for specific locations. | Replacing fragmented local business platforms and providing centralized solutions for location-specific services. |
+| **AI-Powered Guides** | Personal AI assistant for instant queries about locations, providing 3D pinpoint directions and visual guidance. | Enabling quick and accurate location finding through natural language queries. |
+| **AR/VR Integration** | Augmented and virtual reality support for real-time navigation visualization on AR devices and automotive systems. | Providing immersive navigation experiences for next-generation devices and autonomous vehicles. |
 
 ## 🛠 Tech Stack
 - **Frontend**: Next.js 15 (App Router), React, Tailwind CSS v4, Framer Motion
