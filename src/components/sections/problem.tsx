@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ScanFace, Target, Navigation } from "lucide-react"
+import { CrossSectionDemo } from "@/components/ui/cross-section-demo"
 
 export function ProblemStatement() {
     return (
@@ -71,13 +72,7 @@ export function ProblemStatement() {
                             transition={{ duration: 0.6 }}
                             className="relative rounded-3xl overflow-hidden aspect-square lg:aspect-[4/3] bg-slate-100 border border-slate-200 shadow-xl"
                         >
-                            {/* This represents a 3D architectural illustration placeholder */}
-                            <div className="absolute inset-0 bg-gradient-to-tr from-slate-200 to-white flex items-center justify-center p-8">
-                                <div className="w-full h-full border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center text-slate-400">
-                                    <ScanFace className="h-16 w-16 mb-4 text-slate-300" />
-                                    <p className="font-mono text-sm uppercase tracking-widest">[ 3D Building Cross-Section Graphic ]</p>
-                                </div>
-                            </div>
+                            <CrossSectionDemo />
                         </motion.div>
                     </div>
 

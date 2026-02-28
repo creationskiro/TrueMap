@@ -1,6 +1,7 @@
 import { Hero } from "@/components/sections/hero"
 import { Features } from "@/components/sections/features"
 import { ProblemStatement } from "@/components/sections/problem"
+import { CommunityInvitation } from "@/components/sections/community-invitation"
 import { ShieldCheck, Map, ArrowRight } from "lucide-react"
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         <Hero />
         <ProblemStatement />
         <Features />
+        <CommunityInvitation />
 
         {/* Call to Action Section */}
         <section className="py-24 bg-blue-600 relative overflow-hidden">
